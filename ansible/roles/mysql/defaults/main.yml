@@ -1,0 +1,9 @@
+---
+mysql_users:
+  -
+    name: symfony
+    password: geheim
+    host: '%'
+    priv: '*.*:ALL'
+mysql_databases:
+  - symfony
